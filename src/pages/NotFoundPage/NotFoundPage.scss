@@ -2,8 +2,11 @@
 @import '../../sassStyles/mixins';
 
 .not-found-page {
-  display: flex;
-  flex-direction: column;
+  // margin-bottom: 50px;
+
+  // &__info {
+  //   height: 100%;
+  // }
 
   &__content {
     margin-bottom: 50px;
