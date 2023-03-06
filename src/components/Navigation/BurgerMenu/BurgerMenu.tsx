@@ -15,8 +15,16 @@ export const BurgerMenu: React.FC<Props> = memo(
     <div className={cn('burger-menu', { 'burger-menu--active': isMenuOpen })}>
       <Nav setIsMenuOpened={setIsMenuOpened} />
       <div className="burger-menu__icons">
-        <IconBlock iconName="Favourites" to="/favourites" setIsMenuOpened={setIsMenuOpened} />
-        <IconBlock iconName="Cart" to="/cart" setIsMenuOpened={setIsMenuOpened} />
+        <IconBlock
+          iconName="Favourites"
+          to="/favourites"
+          setIsMenuOpened={setIsMenuOpened}
+        />
+        <IconBlock
+          iconName="Cart"
+          to="/cart"
+          setIsMenuOpened={setIsMenuOpened}
+        />
       </div>
       {/* <div className="burger-menu__icons">
         <div className="burger-menu__icon-block">
